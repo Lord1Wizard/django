@@ -32,3 +32,4 @@ class Order(models.Model):
 
     def __str__(self):
         return f'Order-> {self.client}, {self.products}, {self.total_price}'
+django-admin startproject locallibrary
